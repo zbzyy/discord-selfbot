@@ -10,7 +10,7 @@
 * cd src, node .
 
 # information
-Feel free to make [suggestions](https://github.com/zbzyy/discord-selfbot/issues), I will add them if there good enough :)
+This is essentially a base project, make some [suggestions](https://github.com/zbzyy/discord-selfbot/issues) and I will add them
 
 # disclaimer
 Unless I feel the need to use new Discord features, this project will stay using discord.js@11.5.1

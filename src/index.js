@@ -10,7 +10,7 @@ console.log('Logging in');
 
 bot.on('ready', () => { 
     console.clear();
-    console.log('Logged in as ' + chalk.bgHex('#9090ff').black.visible('.'));
+    console.log('Logged in as ' + chalk.bgHex('#9090ff').black.visible(bot.user.tag));
 });
 
 bot.on('message', async function (message) {

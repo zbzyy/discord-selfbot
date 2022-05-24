@@ -1,10 +1,12 @@
 # discord-selfbot
 
+![user interface](https://i.imgur.com/3YI6zTm.png)
+
 # installation
 * install node js (https://nodejs.org/en/)
 * clone this repository
 * install dependencies `npm i chalk@4.1.2` + `npm i discord.js@11.5.1`
-* edit `node_modules\discord.js\src\client\websocket\packets\handlers\Ready.js` with the file in the repository
+* replace `node_modules\discord.js\src\client\websocket\packets\handlers\Ready.js` with the file in the repository
 * cd src, node .
 
 # information

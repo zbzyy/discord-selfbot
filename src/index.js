@@ -23,12 +23,12 @@ bot.on('message', async function (message) {
     if (!message.content.startsWith(command_prefix)) return;
 
     if (bot_command == "ping") {
-        console.log('[' + commands_ran++ + '] - Ping command executed');
+        console.log('[' + commands_ran++ + '] - ' + bot_command + ' command executed');
         message.edit(Math.floor(bot.ping) + ' ms');
     }
 
     if (bot_command == "test") {
-        console.log('[' + commands_ran++ + '] - Test command executed');
+        console.log('[' + commands_ran++ + '] - ' + bot_command + ' command executed');
         message.edit('a');
     }
 });
